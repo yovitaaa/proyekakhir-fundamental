@@ -3,8 +3,8 @@
     "start_url": "/proyek-akhir-story/",
     "scope": "/proyek-akhir-story/",
     "name": "Story App",
-    "short_name": "StoryApp",
-    "description": "StoryApp adalah aplikasi berbagi cerita yang memungkinkan siapa saja untuk membagikan momen, pengalaman, dan inspirasi kepada dunia. Melalui StoryApp, pengguna dapat menjelajahi beragam kisah menarik dari orang lain, menyimpan cerita favorit ke dalam daftar khusus, serta menghapusnya kapan saja sesuai keinginan. Dengan antarmuka yang sederhana dan interaktif, StoryApp menjadi ruang terbuka untuk saling terhubung melalui cerita.",
+    "short_name": "Dicoding App Story",
+    "description": "Dicoding App Story adalah platform berbagi cerita yang memungkinkan pengguna membagikan pengalaman dan menemukan kisah inspiratif dari orang lain.",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#154558",
@@ -99,8 +99,8 @@
       "url": "/?source=pwa#/new",
       "icons": [
         {
-          "src": "images/icons/add-x512.png",
-          "type": "image/png",
+          "src": "images/icons/add-x512.jpeg",
+          "type": "image/jpeg",
           "sizes": "512x512"
         }
       ]
