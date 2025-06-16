@@ -3,12 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  entry: {
-    app: path.resolve(__dirname, 'src/scripts/index.js'),
-  },
+   entry: './src/scripts/index.js',
   output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    filename: 'app.bundle.js',
+    path: path.resolve(__dirname, 'docs'), // ← penting!
+    clean: true,
   },
   module: {
     rules: [
